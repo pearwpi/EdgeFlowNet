@@ -2,7 +2,7 @@
 
 ### [Project Page](https://pear.wpi.edu/research/edgeflownet.html) | [RAL Paper](https://ieeexplore.ieee.org/document/10750293) | [ArXiv](https://arxiv.org/pdf/2411.14576)
 
-Accepted in RAL-2024
+Published in IEEE RAL-2024
 
 ## Abstract
 **EdgeFlowNet** by <a href="http://pear.wpi.edu"><i>Perception and Autonomouș̦ Robotics Group</i></a> at the Department of Robotics Engineering, <a href="https://wpi.edu/">Worcester Polytechnic Institute</a>.
