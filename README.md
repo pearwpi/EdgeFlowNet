@@ -4,13 +4,14 @@
 
 Published in IEEE RAL-2024
 
+### Check out our Youtube video which depicts the proposed framework
+[![EdgeFlowNet: 100 FPS @ 1W Dense Optical flow For Tiny Mobile Robots](assets/paper_video.png)](https://pear.wpi.edu/research/edgeflownet.html)
+
+
 ## Abstract
 **EdgeFlowNet** by <a href="http://pear.wpi.edu"><i>Perception and Autonomouș̦ Robotics Group</i></a> at the Department of Robotics Engineering, <a href="https://wpi.edu/">Worcester Polytechnic Institute</a>.
 
 Optical flow estimation is a critical task for tiny mobile robotics to enable safe and accurate navigation, obstacle avoidance, and other functionalities. However, optical flow estimation on tiny robots is challenging due to limited onboard sensing and computation capabilities. In this paper, we propose EdgeFlowNet , a high-speed, low-latency dense optical flow approach for tiny autonomous mobile robots by harnessing the power of edge computing. We demonstrate the efficacy of our approach by deploying EdgeFlowNet on a tiny quadrotor to perform static obstacle avoidance, flight through unknown gaps and dynamic obstacle dodging. EdgeFlowNet is about 20× faster than the previous state-of-the-art approaches while improving accuracy by over 20% and using only 1.08W of power enabling advanced autonomy on palm-sized tiny mobile robots.
-
-### Check out our Youtube video which depicts the proposed framework
-[![EdgeFlowNet: 100 FPS @ 1W Dense Optical flow For Tiny Mobile Robots](assets/thumbnail.png)](https://pear.wpi.edu/research/edgeflownet.html)
 
 ## Datasets:
 You can download the MPI-sintel dataset from [here](http://sintel.is.tue.mpg.de/downloads) and FlyingChairs2 dataset from [here](https://lmb.informatik.uni-freiburg.de/resources/datasets/FlyingChairs.en.html#flyingchairs2)
