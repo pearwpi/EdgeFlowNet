@@ -1,6 +1,6 @@
 # EdgeFlowNet: 100 FPS @ 1W Dense Optical flow For Tiny Mobile Robots 
 
-### [Project Page](https://pear.wpi.edu/research/edgeflownet.html) | [RAL Paper](https://ieeexplore.ieee.org/document/10750293) | [ArXiv](https://arxiv.org/pdf/2411.14576) | [Video](https://pear.wpi.edu/research/edgeflownet.html)
+### [Project Page](https://pear.wpi.edu/research/edgeflownet.html) | [RAL Paper](https://ieeexplore.ieee.org/document/10750293) | [ArXiv](https://arxiv.org/pdf/2411.14576)
 
 Accepted in RAL-2024
 
@@ -8,6 +8,9 @@ Accepted in RAL-2024
 **EdgeFlowNet** by <a href="http://pear.wpi.edu"><i>Perception and Autonomouș̦ Robotics Group</i></a> at the Department of Robotics Engineering, <a href="https://wpi.edu/">Worcester Polytechnic Institute</a>.
 
 Optical flow estimation is a critical task for tiny mobile robotics to enable safe and accurate navigation, obstacle avoidance, and other functionalities. However, optical flow estimation on tiny robots is challenging due to limited onboard sensing and computation capabilities. In this paper, we propose EdgeFlowNet , a high-speed, low-latency dense optical flow approach for tiny autonomous mobile robots by harnessing the power of edge computing. We demonstrate the efficacy of our approach by deploying EdgeFlowNet on a tiny quadrotor to perform static obstacle avoidance, flight through unknown gaps and dynamic obstacle dodging. EdgeFlowNet is about 20× faster than the previous state-of-the-art approaches while improving accuracy by over 20% and using only 1.08W of power enabling advanced autonomy on palm-sized tiny mobile robots.
+
+### Check out our Youtube video which depicts the proposed framework
+[![EdgeFlowNet: 100 FPS @ 1W Dense Optical flow For Tiny Mobile Robots](assets/thumbnail.png)](https://pear.wpi.edu/research/edgeflownet.html)
 
 ## Datasets:
 You can download the MPI-sintel dataset from [here](http://sintel.is.tue.mpg.de/downloads) and FlyingChairs2 dataset from [here](https://lmb.informatik.uni-freiburg.de/resources/datasets/FlyingChairs.en.html#flyingchairs2)
@@ -41,6 +44,8 @@ Similar to inference you can use the following command for training on FC2
 python wrapers/run_train.py --dataset FC2 --dataset_path <FC2_dataset_path>
 ``` 
 
+## Blender Scenes:
+You can find the blender scenes and corresponding assets used in the paper in `blender` folder
 
 ## Publication:
 If you find our work useful please do cite us as follows:
